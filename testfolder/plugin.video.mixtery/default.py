@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 #------------------------------------------------------------
-# KidsTime
-# (c) 2016 - KAOSbox
 # Based on code from youtube addon
 #------------------------------------------------------------
 
@@ -11,7 +9,7 @@ import plugintools
 import xbmc,xbmcaddon
 from addon.common.addon import Addon
 
-addonID = 'plugin.video.kidstime'
+addonID = 'plugin.video.mixtery'
 addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
